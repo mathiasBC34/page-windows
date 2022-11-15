@@ -1,0 +1,112 @@
+main{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6,150px);
+    grid-template-rows: repeat(4,300px);
+    grid-template-areas: 
+    "courrier courrier calendrier calendrier photo warper_carrer"
+    "skype contacte bourse bourse explorer aide"
+    "liste_de_lecture drive . . carte sante"
+    "bureau bureau . . actus actus";
+
+}
+#courrier{
+    background-color: red;
+    grid-area: courrier;
+}
+
+#calendrier{
+    background-color: blue;
+    grid-area: calendrier;
+}
+
+#photo{
+    background-color: green;
+    grid-area: photo;
+}
+
+#skype{
+    background-color: blue;
+    grid-area: skype;
+}
+
+#contacte{
+    background-color: red;
+    grid-area: contacte;
+}
+
+#bourse{
+    background-color: green;
+    grid-area: bourse;
+}
+
+#explorer{
+    background-color: blueviolet;
+    grid-area: explorer;
+}
+
+#aide{
+    background-color: red;
+    grid-area: aide;
+}
+
+#liste_de_lecture{
+    background-color: red;
+    grid-area: liste_de_lecture;
+}
+
+#drive{
+    background-color: blueviolet;
+    grid-area: drive;
+}
+
+#carte{
+    background-color: rgb(49, 13, 83);
+    grid-area: carte;
+}
+
+#sante{
+    background-color: rgb(250, 8, 8);
+    grid-area: sante;
+}
+
+#bureau{
+    background-color: rgb(17, 212, 27);
+    grid-area: bureau;
+}
+
+#actus{
+    background-color: rgb(14, 6, 79);
+    grid-area: actus;
+}
+
+#warper_carrer{
+    display: grid;
+    grid-gap: 10px;
+    grid-area: warper_carrer;   
+    grid-template-columns: repeat(2,69px);
+    grid-template-rows: repeat(2,145px);
+    grid-template-areas:
+    "un deux"
+    "trois quatre" ;
+}
+
+#un{
+    background-color: rgb(223, 18, 18);
+    grid-area: un;
+}
+
+#deux{
+    background-color: rgb(14, 181, 22);
+    grid-area: deux;
+}
+
+#trois{
+    background-color: rgb(13, 107, 87);
+    grid-area: trois;
+}
+
+#quatre{
+    background-color: rgb(14, 6, 79);
+    grid-area: quatre;
+}
